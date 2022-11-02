@@ -1,0 +1,31 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+div.border > img {
+    height: 200px;
+    width: 200px;
+}
+
+.full {
+    text-align: right;
+    margin-left: 600px;
+}
+
+div.full > img {
+    height: 150px;
+    width: 150px;
+}
+
+.border {
+    border: 15px double red;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px darkred;
+}
+
+.full {
+    border: 15px double green;
+    border-radius: 75px;
+    box-shadow: 10px 5px 5px darkolivegreen;
+}
